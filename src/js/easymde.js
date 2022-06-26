@@ -2119,12 +2119,12 @@ EasyMDE.prototype.render = function (el) {
         if (cm.getOption('fullScreen')) toggleFullScreen(self);
     };
 
-    this.documentOnKeyDown = function (e) {
-        e = e || window.event;
+    this.documentOnKeyDown = function (/*e*/) {
+        // e = e || window.event;
 
-        if (e.keyCode == 27) {
-            if (self.codemirror.getOption('fullScreen')) toggleFullScreen(self);
-        }
+        // if (e.keyCode == 27) {
+        //     if (self.codemirror.getOption('fullScreen')) toggleFullScreen(self);
+        // }
     };
     document.addEventListener('keydown', this.documentOnKeyDown, false);
 
