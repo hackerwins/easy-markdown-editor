@@ -13,7 +13,33 @@ require('codemirror/mode/gfm/gfm.js');
 require('codemirror/mode/xml/xml.js');
 var CodeMirrorSpellChecker = require('codemirror-spell-checker');
 var marked = require('marked').marked;
-
+require('codemirror/mode/javascript/javascript.js');
+require('codemirror/mode/python/python.js');
+require('codemirror/mode/htmlmixed/htmlmixed.js');
+require('codemirror/mode/php/php.js');
+require('codemirror/mode/ruby/ruby.js');
+require('codemirror/mode/sass/sass.js');
+require('codemirror/mode/shell/shell.js');
+require('codemirror/mode/sql/sql.js');
+require('codemirror/mode/stylus/stylus.js');
+require('codemirror/mode/swift/swift.js');
+require('codemirror/mode/xml/xml.js');
+require('codemirror/mode/yaml/yaml.js');
+require('codemirror/mode/vue/vue.js');
+require('codemirror/mode/rust/rust.js');
+require('codemirror/mode/protobuf/protobuf.js');
+require('codemirror/mode/perl/perl.js');
+require('codemirror/mode/pascal/pascal.js');
+require('codemirror/mode/nginx/nginx.js');
+require('codemirror/mode/jsx/jsx.js');
+require('codemirror/mode/jinja2/jinja2.js');
+require('codemirror/mode/http/http.js');
+require('codemirror/mode/go/go.js');
+require('codemirror/mode/diff/diff.js');
+require('codemirror/mode/django/django.js');
+require('codemirror/mode/dockerfile/dockerfile.js');
+require('codemirror/mode/css/css.js');
+require('codemirror/mode/cmake/cmake.js');
 
 // Some variables
 var isMac = /Mac/.test(navigator.platform);
